@@ -7,7 +7,8 @@ _Novel Approach with few implementations_
 - Use Mel frequency cepstral coefficients (MFCC) to train a recurrent neural network (LSTM)/Decision Tree and classify emotions/check accuracy  
 
 #### Dataset:  
-- Interactive Emotional Dyadic Motion Capture (IEMOCAP) -- [here](http://sail.usc.edu/iemocap/)  
+- Interactive Emotional Dyadic Motion Capture (IEMOCAP) -- [Link](http://sail.usc.edu/iemocap/)  
+- Only audio and text data into consideration  
   
 #### Model  
 - 2 layers of LSTM. The batch size and epoch were varied/reduced as per requirement.  
@@ -38,10 +39,10 @@ _Novel Approach with few implementations_
 Librosa/python speech used to extract the feature out of a given voice.
 
 **Files to look for:**
-- [audio1]() : MFCC extraction using python speech_features
-- [audio2]() : Audio visualization. (Performed for single file)
+- [audio1](https://github.com/ManojVaidya/Multimodal-Sentiment-Analysis/tree/master/src/audio1.ipynb) : MFCC extraction using python speech_features
+- [audio2](https://github.com/ManojVaidya/Multimodal-Sentiment-Analysis/tree/master/src/audio2.ipynb) : Audio visualization. (Performed for single file)
 			[Reference](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
-- [multimodal1](): Fusion technique and decision tree
-- [multimodal2](): MFCC+LSTM and scores
+- [multimodal1](https://github.com/ManojVaidya/Multimodal-Sentiment-Analysis/tree/master/src/multimodal1.ipynb): Fusion technique and decision tree
+- [multimodal2](https://github.com/ManojVaidya/Multimodal-Sentiment-Analysis/tree/master/src/multimodal2.ipynb): MFCC+LSTM and scores
 
 _Note:Most of it is an novel approach.Necessary stpes like changing input location(after download), parameter tuning, error handling(if any) etc., may be required._
